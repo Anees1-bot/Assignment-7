@@ -13,7 +13,7 @@
 //     console.log("bulb is on");
 // }
 // else {
-//     console.log("Invalid input");
+//     console.log("not valid");
 // }
 
 // 2. Traffic Light Simulator
@@ -35,7 +35,7 @@
 // } else if (user == "GREEN") {
 //     console.log("Go")
 // } else {
-//     console.log("Invalid color")
+//     console.log("Color not valid")
 // }
 
 
@@ -89,7 +89,7 @@
 // } else if (p1 === p2) {
 //     console.log("It's a tie")
 // } else {
-//     console.log("Invalid input")
+//     console.log("not valid")
 // }
 
 
@@ -112,7 +112,7 @@
 // else if (input === "no" && input1 === "no") {
 //     console.log("All safe")
 // } else {
-//     console.log("Invalid input")
+//     console.log("invalid")
 // }
 
 
@@ -149,13 +149,10 @@
 
 //     if (length < 5) {
 //         console.log("Password is Weak.");
-//         alert("Password is Weak.");
 //     } else if (length >= 6 && length <= 8) {
 //         console.log("Password is Moderate.");
-//         alert("Password is Moderate.");
 //     } else {
 //         console.log("Password is Strong.");
-//         alert("Password is Strong.");
 //     }
 // }
 
@@ -232,7 +229,7 @@
 // } else if (age < 18) {
 //     console.log("You are not eligible to vote.you are " + (age) + " years old.");
 // } else {
-//     console.log("Invalid input");
+//     console.log("invalid");
 // }
 
 // 11.Write a program that accepts two numbers and prints the larger number using if conditions.
@@ -284,17 +281,14 @@
 //     const userAnswer = prompt(`Calculate: ${num1} ${operator} ${num2}`).trim();
 
 //     if (isNaN(userAnswer)) {
-//         alert("Invalid input. Please enter a numeric value.");
 //         console.log("Invalid input. Please enter a numeric value.");
 //         return;
 //     }
 //     if (parseFloat(userAnswer) === correctAnswer) {
-//         alert("Correct!");
 //         console.log("Correct!");
 //     } else {
-//         alert(`Try Again! The correct answer was ${correctAnswer}.`);
 //         console.log(`Try Again! The correct answer was ${correctAnswer}.`);
 //     }
 // }
 
-// main();
+//  main();
